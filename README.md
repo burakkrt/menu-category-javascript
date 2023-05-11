@@ -39,5 +39,6 @@ or you can use it like this
 ```
 ## Screen Shot
 
-https://github.com/burakkrt/menu-category-javascript/assets/99482906/ec396f06-b9ce-4950-99fd-7bf491ed796e
+
+https://github.com/burakkrt/menu-category-javascript/assets/99482906/1f1917c4-9a40-4592-835d-67e154c20b15
 
