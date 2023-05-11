@@ -38,3 +38,6 @@ or you can use it like this
   sass --watch main.sass:style.css --style compressed
 ```
 ## Screen Shot
+
+https://github.com/burakkrt/menu-category-javascript/assets/99482906/ec396f06-b9ce-4950-99fd-7bf491ed796e
+
