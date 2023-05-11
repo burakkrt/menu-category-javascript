@@ -4,7 +4,7 @@
   "description": "A simple javascript based application where menu items are listed according to their categories.",
   "main": "app.js",
   "scripts": {
-    "sass": "sass --watch main.sass:style.css --style compressed"
+    "sass": "sass --watch main.sass:style.css"
   },
   "repository": {
     "type": "git",
