@@ -1,0 +1,22 @@
+.breadcrumbs
+	li
+		display: inline-block
+	li:not(:last-child)::after
+		content: ">"
+		display: inline-block
+		margin: 0 5px
+		font-weight: bold
+		color: $color-darkblue
+	a
+		color: $color-blue
+		transition-duration: 200ms
+		transition-timing-function: ease-in-out
+		text-transform: capitalize
+		&:hover
+			color: $color-red
+.underline
+	height: 2px
+	max-width: 15rem
+	margin: 2rem auto
+	background-color: $color-dark
+	box-shadow: rgba(0, 0, 0, 0.4) 0 0 4px

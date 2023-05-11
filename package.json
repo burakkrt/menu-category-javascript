@@ -1,0 +1,23 @@
+{
+  "name": "menu-category-javascript",
+  "version": "1.0.0",
+  "description": "A simple javascript based application where menu items are listed according to their categories.",
+  "main": "app.js",
+  "scripts": {
+    "scss": "sass --watch sass/main.sass:style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burakkrt/menu-category-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burakkrt/menu-category-javascript/issues"
+  },
+  "homepage": "https://github.com/burakkrt/menu-category-javascript#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
