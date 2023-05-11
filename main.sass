@@ -1,10 +1,12 @@
 @import 'sass/base'
 @import 'sass/veriables'
+@import 'sass/responsive'
 .menu-category
 	width: 80%
 	margin: 5rem auto
 	border: 1px solid gray
 	min-height: 100dvh
+	transition: width 1s ease-in-out
 	.menu-header
 		text-align: center
 		padding: 2rem 0
@@ -16,9 +18,9 @@
 		margin-bottom: 1rem
 	.filters-buttons
 		padding: 4px 0
-		background-attachment: fixed
 		background-color: $color-dark
 		li
+			transition: margin 1s ease-in-out
 			display: inline-block
 			.filter-btn
 				position: relative
@@ -35,6 +37,10 @@
 				background-color: transparent
 				color: $color-white
 				z-index: 1
+				&.active::before
+					left: 0
+				&.active
+					color: $color-dark
 				&::before
 					content: ""
 					position: absolute

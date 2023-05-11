@@ -223,9 +223,16 @@ function getProductElement(producDatas, categoryId) {
 function filterButtonEvent(buttonElement) {
   buttonElement.addEventListener("click", (e) => {
     let catagoryId = e.currentTarget.dataset.categoryid;
-    console.log(catagoryId);
     if (catagoryId !== "all") {
       getProductElement(dataProducts, Number(catagoryId));
     } else getProductElement(dataProducts, "all");
+    activeCategory(e.currentTarget);
   });
+}
+
+function activeCategory(filterButton) {
+  document.querySelectorAll(".filter-btn").forEach(function (btn) {
+    if (btn.classList.contains("active")) btn.classList.remove("active");
+  });
+  filterButton.classList.add("active");
 }

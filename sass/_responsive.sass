@@ -1,0 +1,70 @@
+$small: 576px
+$medium: 768px
+$large: 992px
+$xlarge: 1200px
+$xxlarge: 1400px
+
+
+@media screen and (max-width: $small)
+	html
+		font-size: 55%
+	.menu-category
+		width: 95%!important
+		.menu-header
+			.filters-buttons
+				li
+					margin: 0.5rem 0
+		.menu-content
+			.product-list
+				grid-template-columns: repeat(1, 1fr)!important
+				.product
+					.product-image
+						height: 70%!important
+					.product-info
+						height: 30%!important
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: $small)
+	html
+		font-size: 62.5%
+	.menu-category
+		width: 95%!important
+		.menu-header
+			.filters-buttons
+				li
+					margin: 1rem 0
+		.menu-content
+			.product-list
+				grid-template-columns: repeat(1, 1fr)!important
+				.product
+					.product-image
+						height: 80%!important
+					.product-info
+						height: 20%!important
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: $medium)
+	.menu-category
+		.menu-content
+			.product-list
+				grid-template-columns: repeat(2, 1fr)!important
+
+// Large devices (desktops, 992px and up)
+@media (min-width: $large)
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: $xlarge)
+	.menu-category
+		width: 80%!important
+		.menu-header
+			.filters-buttons
+				li
+					margin: 0 0!important
+
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: $xxlarge)
+	.menu-category
+		.menu-content
+			.product-list
+				grid-template-columns: repeat(3, 1fr)!important
